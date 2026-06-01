@@ -1,5 +1,3 @@
-import { MessageCircle } from "lucide-react";
-
 export function WhatsAppButton() {
   return (
     <a
@@ -7,9 +5,11 @@ export function WhatsAppButton() {
       target="_blank"
       rel="noreferrer"
       aria-label="Chat on WhatsApp"
-      className="fixed bottom-6 right-6 z-50 size-14 rounded-full flex items-center justify-center bg-teal text-navy-deep shadow-glow hover-lift"
+      className="fixed bottom-6 right-6 z-50 size-14 rounded-full flex items-center justify-center bg-[#25D366] text-white shadow-glow hover-lift hover:bg-[#128C7E]"
     >
-      <MessageCircle className="size-6" />
+      <svg viewBox="0 0 24 24" fill="currentColor" className="size-7">
+        <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.246 8.477 3.514 2.266 2.268 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.502-5.73-1.455L0 24zm6.59-11.585c.148-.243.193-.418.29-.582.097-.164.049-.31-.024-.459-.073-.149-.656-1.581-.899-2.167-.236-.57-.478-.493-.656-.502-.164-.008-.352-.01-.54-.01-.189 0-.497.07-.757.352-.26.282-1.002.979-1.002 2.386 0 1.408 1.025 2.767 1.168 2.96.143.192 2.017 3.081 4.887 4.321 2.87 1.24 2.87.827 3.39.78.52-.047 1.677-.687 1.916-1.352.238-.665.238-1.236.167-1.352-.07-.116-.26-.188-.543-.327-.282-.14-1.677-.827-1.936-.922-.26-.095-.449-.14-.639.145-.19.285-.737.922-.903 1.11-.166.19-.33.21-.613.07-.283-.14-1.196-.44-2.28-1.407-.843-.75-1.411-1.677-1.576-1.96-.165-.282-.018-.435.123-.574.127-.125.282-.33.424-.495.143-.165.19-.282.285-.47z" />
+      </svg>
     </a>
   );
 }
